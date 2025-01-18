@@ -1,36 +1,6 @@
 Employee Performance Appraisal System
 The Employee Performance Appraisal System is a Spring Boot application designed to manage and evaluate employee performance. This system provides an efficient way to assess, track, and improve employee performance based on a predefined rating system. It includes features for adding new performance records, viewing performance distributions, calculating deviations, and suggesting adjustments based on performance ratings and Test case coverage. 
 
-Detailed Overview Project Source-code Structure:
-
-src/
- ├── main/
- │    ├── java/
- │    │    └── com/
- │    │         └── employee/
- │    │              └── performance/
- │    │                   ├── controller/
- │    │                   │    └── EmployeePerformanceController.java
- │    │                   ├── model/
- │    │                   │    └── EmployeePerformance.java
- │    │                   ├── repository/
- │    │                   │    └── EmployeePerformanceRepository.java
- │    │                   └── service/
- │    │                        └── EmployeePerformanceService.java
- │    └── resources/
- │         ├── static/
- │         ├── templates/
- │         ├── application.properties
- │         └── data.sql
- └── test/
-      └── java/
-           └── com/
-                └── employee/
-                     └── performance/
-                          ├── EmployeePerformanceControllerTest.java
-                          ├── EmployeePerformanceServiceTest.java
-                          └── PerformanceApplicationTests.java
-
 Features
 Employee Performance Management:
 
